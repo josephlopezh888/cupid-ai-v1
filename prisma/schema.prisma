@@ -1,0 +1,65 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model User {
+  id             String     @id @default(cuid())
+  name           String?    @default("anonymous")
+  email          String     @unique
+  passwordHash   String     @unique
+  avatar         String?    @default("https://www.freeiconspng.com/thumbs/login-icon/user-login-icon-14.png ")
+  role           Role?      @default(USER)
+  planType       PlanType?   @default(FREE)
+  planExpiration DateTime?
+  createdAt      DateTime?  @default(now())
+  referral       Referral[]
+}
+
+model Referral {
+  id                String         @id @default(cuid())
+  rfCode            String
+  friendsInvited    Int?           @default(0)
+  friendsReffered     Int?           @default(0)
+  creditsEarned     Int?           @default(0)
+  pendingWithdrawal Int?           @default(0)
+  cashOut           withdrawalModel[]
+  user              User           @relation(fields: [userId], references: [id])
+  userId            String
+
+  @@index([userId])
+}
+
+model withdrawalModel {
+  id         String   @id @default(cuid())
+  date       DateTime
+  amount      Int      @default(0)
+  status      String @default("PENDING")
+  btc String
+  paypal String
+  ltc String
+  note String
+  referral   Referral @relation(fields: [referralId], references: [id])
+  referralId String
+  @@index([referralId])
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum PlanType {
+  FREE
+  INDIVIDUAL
+  ENTREPRENEUR
+  BUSINESS
+}
