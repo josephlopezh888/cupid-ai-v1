@@ -1,28 +1,90 @@
-# Create T3 App
+#💘 Cupid AI — Stop Overthinking Your Texts
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Cupid AI helps you decode conversations instantly.
+Upload a chat screenshot, and get AI-powered analysis of favorability, emotions, and relationship intent — so you can stop guessing what they feel.
 
-## What's next? How do I make an app with this?
+🚀 Live Demo: https://cupidai.app
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+##🌟 Features
+###💬 Instant Chat Analysis
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Upload screenshots of WhatsApp, iMessage, or Instagram chats — Cupid AI detects:
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Emotional tone and intent
 
-## Learn More
+Response patterns and interest signals
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Favorability and affection scores
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+###🧠 Advanced Relationship AI
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Our AI is trained on millions of real-life text interactions to deliver precise emotional insights and communication advice.
 
-## How do I deploy this?
+###❤️ AI Relationship Counseling
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Get personalized relationship guidance:
+
+Tips to improve connection
+
+24/7 AI counselor support
+
+Evidence-based strategies
+
+###🔐 Privacy Protection
+
+Your data is always secure.
+
+End-to-end encryption
+
+Zero data retention
+
+Anonymous processing
+
+###⚡ How It Works
+
+Upload Your Chat
+Take a screenshot of any conversation (WhatsApp, iMessage, Telegram, etc.).
+
+Let Cupid AI Analyze
+Our AI analyzes tone, intent, and emotional cues instantly.
+
+See Your Report
+Receive a detailed Affection Score, positive/negative signal breakdown, and personalized advice.
+
+##🧭 Example Output
+
+Affection Score: 92% 💖
+Summary:
+
+“They show strong signs of interest and emotional engagement. Go for it!”
+
+##💬 Testimonials
+
+“I was about to give up on this crush, but the AI showed strong interest signs I hadn’t noticed. We’re together now!”
+— David K., 29, Consultant
+
+##🛠 Tech Stack
+
+Cupid AI is built with the T3 Stack, offering a fast, scalable, and type-safe foundation.
+- Next.js — React framework for modern web apps
+- Tailwind CSS — Beautiful, responsive design
+- tRPC — End-to-end type-safe API
+- Prisma — ORM for modern databases
+- NextAuth.js — Secure authentication
+
+##❓ Frequently Asked Questions
+
+Is my conversation data safe?
+Absolutely. All uploads are encrypted and permanently deleted within 10 minutes.
+
+Which messaging apps are supported?
+WhatsApp, iMessage, Instagram DMs, Facebook Messenger, Telegram, and more — in 15+ languages.
+
+Is the first analysis free?
+Yes! You can analyze up to 2 screenshots completely free.
+
+📬 Support
+
+If you have questions or need help:
+**📱 Telegram: [@vladmeer](https://t.me/vladmeer67)**
+**📱 Twitter: [@vladmeer](https://x.com/vladmeer67)**
