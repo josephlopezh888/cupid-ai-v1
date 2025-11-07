@@ -1,12 +1,12 @@
-#💘 Cupid AI — Stop Overthinking Your Texts
+# 💘 Cupid AI — Stop Overthinking Your Texts
 
 Cupid AI helps you decode conversations instantly.
 Upload a chat screenshot, and get AI-powered analysis of favorability, emotions, and relationship intent — so you can stop guessing what they feel.
 
 🚀 Live Demo: https://cupidai.app
 
-##🌟 Features
-###💬 Instant Chat Analysis
+## 🌟 Features
+### 💬 Instant Chat Analysis
 
 Upload screenshots of WhatsApp, iMessage, or Instagram chats — Cupid AI detects:
 
@@ -16,11 +16,11 @@ Response patterns and interest signals
 
 Favorability and affection scores
 
-###🧠 Advanced Relationship AI
+### 🧠 Advanced Relationship AI
 
 Our AI is trained on millions of real-life text interactions to deliver precise emotional insights and communication advice.
 
-###❤️ AI Relationship Counseling
+### ❤️ AI Relationship Counseling
 
 Get personalized relationship guidance:
 
@@ -30,7 +30,7 @@ Tips to improve connection
 
 Evidence-based strategies
 
-###🔐 Privacy Protection
+### 🔐 Privacy Protection
 
 Your data is always secure.
 
@@ -51,19 +51,19 @@ Our AI analyzes tone, intent, and emotional cues instantly.
 See Your Report
 Receive a detailed Affection Score, positive/negative signal breakdown, and personalized advice.
 
-##🧭 Example Output
+## 🧭 Example Output
 
 Affection Score: 92% 💖
 Summary:
 
 “They show strong signs of interest and emotional engagement. Go for it!”
 
-##💬 Testimonials
+## 💬 Testimonials
 
 “I was about to give up on this crush, but the AI showed strong interest signs I hadn’t noticed. We’re together now!”
 — David K., 29, Consultant
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Cupid AI is built with the T3 Stack, offering a fast, scalable, and type-safe foundation.
 - Next.js — React framework for modern web apps
@@ -72,7 +72,7 @@ Cupid AI is built with the T3 Stack, offering a fast, scalable, and type-safe fo
 - Prisma — ORM for modern databases
 - NextAuth.js — Secure authentication
 
-##❓ Frequently Asked Questions
+## ❓ Frequently Asked Questions
 
 Is my conversation data safe?
 Absolutely. All uploads are encrypted and permanently deleted within 10 minutes.
@@ -83,7 +83,7 @@ WhatsApp, iMessage, Instagram DMs, Facebook Messenger, Telegram, and more — in
 Is the first analysis free?
 Yes! You can analyze up to 2 screenshots completely free.
 
-📬 Support
+## 📬 Support
 
 If you have questions or need help:
 **📱 Telegram: [@vladmeer](https://t.me/vladmeer67)**
