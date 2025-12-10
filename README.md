@@ -86,5 +86,5 @@ Yes! You can analyze up to 2 screenshots completely free.
 ## 📬 Support
 
 If you have questions or need help:
-**📱 Telegram: [@vladmeer](https://t.me/vladmeer67)**
-**📱 Twitter: [@vladmeer](https://x.com/vladmeer67)**
+**📱 Telegram: [@joseph](https://t.me/josephlopezh888)**
+**📱 Twitter: [@joseph](https://x.com/josephlopezh888)**
